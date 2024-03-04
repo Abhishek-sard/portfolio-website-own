@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm Abhishek <span >Sardar </span> <br> from Nepal.</h1>
+            </div>
+        </div>
+    </div>
+
+<!-------about----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="jit.jpg" height="350px" width="300px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>work as developer with such a more highly skills
+                        if you want to read my portfolio then you have to pay
+                        some amount of money if these deal is conform the you can 
+                        contact me i will leave a link and contact in down of the website so
+                        without heitance you can contact me
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interface</li>
+                            <li><span>Web Develpment</span><br>web app development</li>
+                            <li><span>App Development</span><br>Building Android/OS apps</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-2024-Current</span><br>Designing web/app interface</li>
+                            <li><span>2019-2020</span><br>web app development</li>
+                            <li><span>2016-2017</span><br>Building Android/OS apps</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>Designing web/app interface</li>
+                            <li><span>2015</span><br>web app development</li>
+                            <li><span>2014</span><br>Building Android/OS apps</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------services------->
+<div class="service">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipis pariatur, voluptatem veniam est?</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h2>Ui/ux design</h2>
+                <p>this is a service i provide in free guys so you guys can take it free</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h2>App developer</h2>
+                <p>this dfalkdfadlkfjaldkfalkdfadfa</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
